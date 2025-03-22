@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('fox_fon.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+            width: 250px;
+            text-align: center;
+        }
+
+        .button:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+    </style>
+</head>
+<body>
+
+    <img src="copy_autr.jpg" alt="Аватар" class="avatar">
+
+    <div class="buttons">
+        <a href="https://t.me/PixiKito_official" class="button">Telegram</a>
+        <a href="https://t.me/OdysseyKito" class="button">GDPS</a>
+        <a href="https://www.youtube.com/@PixiKito" class="button">YouTube</a>
+        <a href="https://ru.pinterest.com/pixikito/" class="button">Pinterest</a>
+        <a href="https://www.youtube.com/@PixiKito_Games" class="button">YouTube Game</a>
+    </div>
+
+</body>
+</html>
